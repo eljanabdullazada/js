@@ -1,4 +1,4 @@
-const readline = require('readline-sync');
+const readline = prompt('readline-sync');
 
 const fullName = readline.question("Please enter your first name: ");
 const courseGrade = parseFloat(readline.question("Please enter your course grade: "));
