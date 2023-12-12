@@ -10,7 +10,5 @@ $(document).ready(function() {
       } else {
         $(this).text('Click Me!');
       }
-      
-      clicked = !clicked; 
     });
 });

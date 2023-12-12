@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-container{
+    background: linear-gradient(300deg, rgb(166, 249, 0), #0012da)
+}
+
+.container{
+    width: 25%;
+    height: 25vh;
+    background-color: aquamarine;
+    border: 2px solid coral;
+}
+
+#name-icon{
+    background-color: white;
+}
+
+.main-section{
+    background-color: antiquewhite;
+}
