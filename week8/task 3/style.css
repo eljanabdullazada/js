@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(300deg, rgb(166, 249, 0), #0012da);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+    height: 100vh;
+}
+
+#timer {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+input[type="number"], button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+input[type="number"]::placeholder {
+    color: white;
+    opacity: 0.7;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
