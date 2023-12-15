@@ -1,23 +1,87 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
 }
 
-.main-container{
-    background: linear-gradient(300deg, rgb(166, 249, 0), #0012da)
+.main-container {
+    background: linear-gradient(300deg, rgb(166, 249, 0), #0012da);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.container{
-    width: 25%;
-    height: 25vh;
-    background-color: aquamarine;
-    border: 2px solid coral;
+.container {
+    width: 40%;
+    background-color: rgb(4, 203, 4);
+    border: 2px solid rgb(86, 62, 0);
+    border-radius: 10px;
+    padding: 20px;
 }
 
-#name-icon{
-    background-color: white;
+input{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: beige;
 }
 
-.main-section{
-    background-color: antiquewhite;
+#name-icon {
+    background-color: beige;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.crossed-out {
+    text-decoration: line-through;
+    color: grey;
+}
+
+button.add-btn {
+    background: linear-gradient(300deg, rgb(166, 249, 0), #0012da);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: #0f9600;
+}
+
+button.remove-btn {
+    background-color: #b90000; 
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+button.cross-out-btn {
+    background-color: #0f9600; 
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10px;
 }
